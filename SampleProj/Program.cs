@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
+//This is a comment
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
